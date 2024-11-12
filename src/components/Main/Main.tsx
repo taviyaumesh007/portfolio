@@ -15,6 +15,10 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import mui from "../../assets/material-ui.svg";
+import socket from "../../assets/socketio-icon.svg";
+import nextjs from "../../assets/next-js.svg";
+import angular from "../../assets/angular.svg";
 
 export function Main() {
   return (
@@ -163,13 +167,18 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
+                // {
+                //   "src": shopify,
+                //   "width": 20,
+                //   "height": 20
+                // },
                 {
-                  "src": shopify,
+                  "src": htmlIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": socket,
                   "width": 20,
                   "height": 20
                 },
@@ -178,13 +187,18 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": nodeIcon,
+                  "src": mui,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": nextjs,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": angular,
                   "width": 20,
                   "height": 20
                 },
@@ -208,11 +222,11 @@ export function Main() {
                 //   "width": 20,
                 //   "height": 20
                 // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                // {
+                //   "src": vueIcon,
+                //   "width": 20,
+                //   "height": 20
+                // },
 
               ],
               "polygon": {

@@ -45,7 +45,7 @@ export function Form() {
   }
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      {/* <h2>Get in touch using the form</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -73,7 +73,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LebzncqAAAAALR_uCq298YPS0Q7aP8zndLC_uQM"
           onChange={(e) => {
             setIsHuman(true)
           }}
@@ -85,7 +85,7 @@ export function Form() {
           Submit
         </button>
       </form>
-      <ToastContainer />
+      <ToastContainer /> */}
     </Container>
   )
 }
