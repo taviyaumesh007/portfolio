@@ -49,13 +49,13 @@ export function Footer() {
         >
           <img src={telegram} alt="telegram" />
         </a>
-        <a
+        {/* <a
           href="https://www.instagram.com/vinayaksingh.in"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
       </div>
     </Container>
   )
