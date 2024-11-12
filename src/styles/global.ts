@@ -7,6 +7,27 @@ export const GlobalStyle = createGlobalStyle`
     --yellow: #fca311;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
+    ::-webkit-scrollbar {
+      width: 2px; /* Adjust scrollbar width */
+    }
+
+/* Customize the scrollbar track */
+    ::-webkit-scrollbar-track {
+       background: #212121; /* Track color */
+      border-radius: 10px; /* Optional: Add rounded corners */
+    }
+
+/* Customize the scrollbar thumb */
+    ::-webkit-scrollbar-thumb {
+      background-color:  #fca311; /* Thumb color */
+      border-radius: 10px; /* Optional: Add rounded corners */
+    
+    }
+
+/* Change the thumb color when hovered */
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #212121; /* Thumb color on hover */
+    }
 
     &.light{
 
