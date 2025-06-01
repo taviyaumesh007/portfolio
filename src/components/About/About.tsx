@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import umeshtaviya from "../../assets/umesh.png";
+import umeshtaviya from "../../assets/umesh.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -106,7 +106,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={umeshtaviya} alt="Umesh taviya" />
+          {/* <img src={umeshtaviya} alt="Umesh taviya" /> */}
         </ScrollAnimation>
       </div>
     </Container>

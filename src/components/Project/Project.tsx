@@ -74,46 +74,63 @@ export function Project() {
       liveLink: null,
     },
   ];
-  const workExperience = [
-    {
-      company: "Goldenmace IT Solutions",
-      role: "Senior React.js Developer",
-      duration: "March 2024 - Oct 2024",
-      responsibilities: [
-        "Developed user-friendly interfaces using React.js to create seamless and interactive web experiences.",
-        "Managed dynamic content efficiently with WordPress CMS for blogs, news, and events.",
-      ],
-    },
-    {
-      company: "Celloip Technology",
-      role: "Junior Web Developer",
-      duration: "January 2023 - February 2024",
-      project: "eFone",
-      techStack: ["HTML", "CSS", "JavaScript", "React.js", "Material-UI", "Redux Toolkit", "Socket.IO"],
-      responsibilities: [
-        "Developed features for a chat and call web app using React.js and real-time communication with Socket.IO.",
-        "Collaborated with a team to maintain and improve application performance and user experience.",
-      ],
-    },
-    {
-      company: "BVM Infotech",
-      role: "Web Development Training",
-      duration: "July 2022 - December 2022",
-      responsibilities: [
-        "Completed training focused on web development with emphasis on React.js, HTML, CSS, and JavaScript.",
-        "Worked on building responsive web applications and gained practical experience in front-end development.",
-      ],
-    },
-    {
-      company: "Vodafone",
-      role: "Customer Service",
-      duration: "August 2017 - January 2018",
-      responsibilities: [
-        "Assisted customers in the activation department, handling back-office operations.",
-        "Provided efficient customer support and ensured smooth service activation processes.",
-      ],
-    },
-  ];
+const workExperience = [
+  {
+    company: "Hexylon Analytics",
+    role: "Senior React.js Developer",
+    duration: "Dec 2024",
+    project: "ERP System",
+    responsibilities: [
+      "Developed scalable UI components using React.js and Tailwind CSS.",
+      "Integrated REST APIs across Inventory, HR, Sales, and Finance modules.",
+      "Implemented complex form validations with Yup.",
+      "Used Redux/Context API for optimized state management.",
+      "Managed user roles with conditional rendering and access controls.",
+      "Collaborated with backend teams for smooth API communication.",
+    ],
+    keyLearnings: [
+      "Mastered enterprise-level frontend architecture.",
+      "Strengthened debugging and performance optimization skills.",
+      "Improved understanding of clean code, documentation, and modular development.",
+    ],
+    additionalContributions: [
+      "Developed autonomous agents using Agentic AI with Node.js.",
+      "Automated internal tasks through agent-based architecture.",
+      "Set up Dockerized environments and CI/CD pipelines with GitHub Actions.",
+    ],
+  },
+  {
+    company: "Goldenmace IT Solutions",
+    role: "Senior React.js Developer",
+    duration: "March 2024 - Nov 2024",
+    responsibilities: [
+      "Built interactive UI using React.js for eco-awareness platforms.",
+      "Managed dynamic content using WordPress CMS.",
+      "Promoted eco-friendly practices through tech-integrated design.",
+    ],
+  },
+  {
+    company: "Celloip Technology",
+    role: "Junior Web Developer",
+    duration: "January 2023 - February 2024",
+    project: "eFone",
+    techStack: ["HTML", "CSS", "JavaScript", "React.js", "Material-UI", "Redux Toolkit", "Socket.IO"],
+    responsibilities: [
+      "Developed features for a chat and call web app using React.js and real-time communication with Socket.IO.",
+      "Collaborated with a team to maintain and improve application performance and user experience.",
+    ],
+  },
+  {
+    company: "BVM Infotech",
+    role: "Web Development Training",
+    duration: "July 2022 - December 2022",
+    responsibilities: [
+      "Gained foundational skills in frontend and backend web technologies.",
+      "Worked on building responsive web applications and gained practical experience in front-end development.",
+    ],
+  },
+];
+
   
 
   return (
@@ -170,7 +187,7 @@ export function Project() {
       </div>
       </Container>
       <Container id="experience">
-      <h2>My Experience</h2>
+      <h2>Work History</h2>
       <div className="experience">
         {workExperience.map((job, index) => (
           <ScrollAnimation key={index} animateIn="fadeInUp">
