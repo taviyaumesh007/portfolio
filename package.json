@@ -24,20 +24,15 @@
     "styled-components": "^5.3.3",
     "typescript": "^4.4.2",
     "validator": "^13.7.0",
-    "web-vitals": "^2.1.0"
-  },
-  "devDependencies": {
-    "@types/react-animate-on-scroll": "^2.1.5",
-    "@types/react-google-recaptcha": "^2.1.2",
-    "@types/react-router-hash-link": "^2.4.4",
-    "@types/styled-components": "^5.1.18",
-    "@types/validator": "^13.7.1"
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "install": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
@@ -56,5 +51,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-animate-on-scroll": "^2.1.5",
+    "@types/react-google-recaptcha": "^2.1.2",
+    "@types/react-router-hash-link": "^2.4.4",
+    "@types/styled-components": "^5.1.18",
+    "@types/validator": "^13.7.1"
   }
 }
